@@ -23,13 +23,13 @@ bool getPostOrder(char *str1,int l1,int h1,
 }
 
 int main(){
-	char str1[30];
-	char str2[30];
+	char str1[30]="";
+	char str2[30]="";
 	while(scanf("%s",str1)!=EOF){
 		scanf("%s",str2);
 		int n;
 		for(n=0;str1[n]!=0;n++);
-		char str3[30];
+		char str3[30]="";
 		if(getPostOrder(str1,0,n-1,
 					str2,0,n-1,
 					str3,0,n-1))
