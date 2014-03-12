@@ -1,3 +1,7 @@
+# Debugger temporary files
+*.dSYM
+*.out
+
 # Modified temporary files
 *~
 
