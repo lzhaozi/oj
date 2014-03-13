@@ -119,7 +119,9 @@ int main(){
 				printf("YES\n");
 			else
 				printf("NO\n");
+			TreeDeleter(Tree2);
 		}
+		TreeDeleter(Tree);
 	}
 	return 0;
 }
